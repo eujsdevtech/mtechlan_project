@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+:root {
+    --cor1: #F2F2F2;
+    --cor2: rgba(166, 166, 166, 0.247);
+    --cor3: #F24405;
+    --cor4: #bf2604;
+    --cor5: #0D0D0D;
+
+    --fonte-titulo: "Kanit", sans-serif;
+    --fonte-corpo: "Lato", sans-serif;
+    --fonte-extra: "Rubik", sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--cor2);
+    font-family: var(--fonte-corpo);
+}
+
+header {
+    background-color: var(--cor3);
+    font-family: var(--fonte-titulo);
+    color: var(--cor1);
+    padding: 1rem;
+    bottom: 0;
+
+}
+
+
+nav {
+    margin-top: -2.7rem;
+    margin-right: 1.5rem;
+    text-align: right;
+}
+
+nav a {
+    font-family: var(--fonte-extra);
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+    padding: 0.7rem;
+}
+
+nav > a:hover {
+    border: var(--cor5);
+
+}
+
+footer {
+    text-align: center;
+    font-weight: 550;
+}
